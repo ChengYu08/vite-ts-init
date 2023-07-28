@@ -1,0 +1,141 @@
+.container {
+  height: fit-content;
+  padding: 0 40px;
+ 
+
+  .topBox {
+    height: 530px;
+    position: relative;
+    .pItem {
+      position: absolute;
+      &.arr {
+        top: 276px;
+        right: 32px;
+      }
+      &.star {
+        top: 20px;
+        right: 90px;
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+      }
+      &.one {
+        top: 60px;
+        z-index: 1;
+      }
+      &.plat {
+        top: 142px;
+        left: 48px;
+        width: 642px;
+        object-fit: cover;
+      }
+      &.infin {
+        top: 290px;
+        z-index: 1;
+      }
+      &.poss {
+        top: 372px;
+        left: 48px;
+        width: 644px;
+        object-fit: cover;
+      }
+    }
+  }
+  .socialDesc {
+    width: 690px;
+    height: 80px;
+    font-size: 34px;
+    font-family: MontserratAlternates-Regular, MontserratAlternates;
+    font-weight: 400;
+    color: #60646c;
+    line-height: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 26px;
+  }
+  .joinBtn {
+    margin: auto;
+    margin-top: 88px;
+
+    .download {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .f {
+        margin-left: 16px;
+      }
+    }
+
+  }
+  .launchBtn {
+    margin: auto;
+    margin-top: 70px;
+  }
+  .bottomBox {
+    height: 172px;
+    position: relative;
+    .circle {
+      width: 172px;
+      height: 172px;
+      object-fit: cover;
+    }
+    .bText {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      text-align: right;
+      .p {
+        font-size: 24px;
+        font-family: MontserratAlternates-Light, MontserratAlternates;
+        font-weight: 300;
+        color: rgba(255, 255, 255, 0.3);
+      }
+      .k {
+        font-size: 24px;
+        font-family: Kodchasan-Bold, Kodchasan;
+        font-weight: bold;
+        color: #ffffff;
+      }
+    }
+  }
+  .queueBox {
+    margin-top: 48px;
+    margin-bottom: 34px;
+    height: 950px;
+    // overflow-y: hidden;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    .imgItem {
+      margin-top: 22px;
+      width: 314px;
+      object-fit: cover;
+    }
+    .disable {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 5;
+    }
+    .topBox {
+      position: absolute;
+      top: -10px;
+      width: 100%;
+      // width: 314px;
+      height: 280px;
+      background: linear-gradient(180deg, #010811 0%, rgba(1, 8, 17, 0) 100%);
+      z-index: 1;
+    }
+    .bottomBox {
+      // width: 314px;
+      width: 100%;
+      height: 278px;
+      background: linear-gradient(180deg, rgba(1, 8, 17, 0) 0%, #010811 100%);
+      position: absolute;
+      bottom: -10px;
+    }
+  }
+
+}

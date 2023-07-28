@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="166px" height="73px" viewBox="0 0 166 73" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="L4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="移动端-L4官网-全" transform="translate(-15.000000, -132.000000)">
+            <g id="编组-26" transform="translate(15.000000, 132.000000)">
+                <rect id="矩形" fill-opacity="0" fill="#D8D8D8" x="0" y="0" width="166" height="73"></rect>
+                <text id="{" font-family="MontserratAlternates-Light, Montserrat Alternates" font-size="60" font-weight="300" fill="#FFFFFF">
+                    <tspan x="0" y="58">{</tspan>
+                </text>
+                <text id="One" font-family="MontserratAlternates-Bold, Montserrat Alternates" font-size="60" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="19.28" y="58">One</tspan>
+                </text>
+                <text id="}" font-family="MontserratAlternates-Light, Montserrat Alternates" font-size="60" font-weight="300" fill="#FFFFFF">
+                    <tspan x="144" y="58">}</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,54 @@
+@import "../../res.scss";
+.container {
+  width: 710px;
+  height: 128px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 24px;
+  backdrop-filter: blur(10px);
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 999999;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  .rightBox {
+    margin-left: 20px;
+    .title {
+      font-size: 30px;
+      font-family: PingFangSC-Semibold, PingFang SC;
+      font-weight: 600;
+      color: #141414;
+    }
+    .subTitle {
+      font-size: 24px;
+      font-family: PingFangSC-Regular, PingFang SC;
+      font-weight: 400;
+      color: #a9abb2;
+    }
+  }
+  .e {
+    flex: 1;
+  }
+  .downBox {
+    width: 166px;
+    height: 68px;
+    line-height: 68px;
+    text-align: center;
+    background: #ffffff;
+    border-radius: 34px;
+    border: 2px solid #dee0e2;
+    font-size: 26px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #141414;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+}

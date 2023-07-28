@@ -1,0 +1,65 @@
+@import "../../res.scss";
+.container {
+    position: absolute;
+    top: 12px;
+    right: 118px;
+    z-index: 999;
+    .currentLang {
+        display: flex;
+        align-items: center;
+        font-size: 28px;
+        font-family: MontserratAlternates-Regular, MontserratAlternates;
+        font-weight: 400;
+        color: #FFFFFF;
+        transition: all 0.3s ease-in-out;
+        .lang {
+            margin-right: 8px;
+        }
+    }
+    .toolTopBox {
+        position: fixed;
+        top: 116px;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        z-index: 999;
+        .inner {
+            position: absolute;
+            right: 52px;
+            width: 282px;
+            background: #30353E;
+            border-radius: 30px;
+            padding: 16px;
+            box-sizing: border-box;
+            .item {
+                height: 76px;
+                border-radius: 24px;
+                display: flex;
+                align-items: center;
+                padding: 0 20px;
+                position: relative;
+                margin-bottom: 16px;
+                font-size: 28px;
+                font-family: MontserratAlternates-Regular, MontserratAlternates;
+                font-weight: 400;
+                color: #FFFFFF;
+
+                &.active {
+                    background: #414853;
+                    .select {
+                        visibility: visible;
+                    }
+                }
+                .select {
+                    position: absolute;
+                    top: 50%;
+                    right: 10px;
+                    transform: translateY(-50%);
+                    visibility: hidden;
+                }
+            }
+        }
+      
+    }
+
+}

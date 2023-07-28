@@ -1,0 +1,112 @@
+@import "../../res.scss";
+.container {
+    margin-top: 160px;
+  width: 750px;
+  height: 1508px;
+  background: linear-gradient(
+    180deg,
+    rgba(10, 1, 55, 0.8) 0%,
+    rgba(10, 1, 55, 0) 100%
+  );
+  border-radius: 50px;
+  position: relative;
+  padding-top: 114px;
+
+  .phoneTabBg {
+    top: 0;
+    position: absolute;
+    width: 750px;
+    object-fit: contain;
+  }
+  .marquee {
+    position: absolute;
+    top: 50px;
+    width: 750px;
+    height: 100px;
+    z-index: 1;
+    .font {
+        background: linear-gradient(
+            58deg,
+            #ff440f 0%,
+            #fec03b 22%,
+            #f554fe 51%,
+            #2fc4f1 84%,
+            #45f0c1 100%
+          );
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 72px;
+        font-family: ZenDots-Regular, ZenDots;
+        font-weight: 400;
+        color: rgba(255,255,255,0);
+    }
+
+  }
+
+  .phoneBox {
+    margin: auto;
+    width: 484px;
+    height: 982px;
+    // padding-top: 114px;
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+    border-radius: 80px;
+
+    .phoneBg {
+      position: absolute;
+      width: 484px;
+      height: 982px;
+      object-fit: cover;
+      z-index: 1;
+    }
+    .curBox {
+      width: 484px;
+      height: 982px;
+      overflow: hidden;
+      border-radius: 80px;
+      .phone {
+        width: 484px;
+        border-radius: 80px;
+        object-fit: cover;
+        // @include mockBg("phoneContent.png");
+        background-color: #010811;
+        border-radius: 40px;
+      }
+    }
+
+    
+  }
+  .textInfo {
+    .t {
+      text-align: center;
+      margin-top: 80px;
+      font-size: 40px;
+      font-family: MontserratAlternates-Medium, MontserratAlternates;
+      font-weight: 500;
+      color: #ffffff;
+      background: linear-gradient(
+        58deg,
+        #ff440f 0%,
+        #fec03b 22%,
+        #f554fe 51%,
+        #2fc4f1 84%,
+        #45f0c1 100%
+      );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .desc {
+      margin: auto;
+      margin-top: 20px;
+      width: 690px;
+      height: 144px;
+      font-size: 28px;
+      font-family: MontserratAlternates-Light, MontserratAlternates;
+      font-weight: 300;
+      color: #ffffff;
+      line-height: 36px;
+      text-align: center;
+    }
+  }
+}

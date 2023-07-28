@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="19px" viewBox="0 0 19 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="L4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="移动端-L4官网-全" transform="translate(-128.000000, -480.000000)">
+            <g id="编组-7" transform="translate(91.000000, 464.000000)">
+                <g id="下载" transform="translate(37.000000, 16.000000)">
+                    <rect id="矩形" fill-opacity="0" fill="#D8D8D8" x="0" y="0" width="19" height="19"></rect>
+                    <g id="编组-27" transform="translate(1.031683, 2.427548)" stroke="#0F1012" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                        <path d="M15.3086816,11.3641569 C16.6759864,10.4026837 17.2622475,8.66586631 16.7574023,7.07241086 C16.252557,5.47895542 14.7065699,4.60597048 13.0350684,4.60726015 L12.0694765,4.60726015 C11.4382431,2.14722654 9.35554337,0.331040123 6.83248211,0.0404389796 C4.30937925,-0.250162163 1.8683621,1.04497073 0.694383737,3.29711711 C-0.479594626,5.54926349 -0.143430525,8.29206867 1.53967811,10.1940476" id="路径"></path>
+                        <line x1="8.4403736" y1="14.1448203" x2="8.43687899" y2="6.65638678" id="路径"></line>
+                        <polyline id="路径" points="11.0843731 11.4973262 8.43679579 14.1449035 5.78921852 11.4973262"></polyline>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,40 @@
+@import "../../res.scss";
+.container {
+  position: relative;
+  .kidBg {
+    position: absolute;
+    width: 750px;
+    object-fit: cover;
+    z-index: -1;
+  }
+  .title {
+    font-size: 52px;
+    font-family: MontserratAlternates-SemiBold, MontserratAlternates;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: center;
+  }
+  .subTitle {
+    margin-top: 24px;
+    font-size: 32px;
+    font-family: MontserratAlternates-Regular, MontserratAlternates;
+    font-weight: 400;
+    color: #50565d;
+    text-align: center;
+  }
+  .conintBox {
+    margin: auto;
+    margin-top: 24px;
+    text-align: center;
+    width: 690px;
+    font-size: 28px;
+    font-family: MontserratAlternates-Light, MontserratAlternates;
+    font-weight: 300;
+    color: #ffffff;
+    line-height: 36px;
+  }
+  .premint {
+    margin: auto;
+    margin-top: 64px;
+  }
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="47px" height="47px" viewBox="0 0 47 47" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="1.79393985e-14%" y1="50%" x2="100%" y2="53.9763461%" id="linearGradient-1">
+            <stop stop-color="#FFD2EF" offset="0%"></stop>
+            <stop stop-color="#C6FFE6" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="L4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="移动端-L4官网-全" transform="translate(-297.000000, -240.000000)">
+            <g id="编组-16" transform="translate(297.000000, 240.000000)">
+                <rect id="矩形" fill="#D8D8D8" opacity="0" x="0" y="0" width="47" height="47"></rect>
+                <g id="编组-8" transform="translate(23.572660, 23.076527) rotate(-315.000000) translate(-23.572660, -23.076527) translate(-1.208137, 16.088214)" stroke-width="0.6">
+                    <path d="M-2.62708429e-14,7.52739368 C8.10720004,1.56799297 16.455273,-0.852886473 25.0442189,0.264755348 C33.6331648,1.38239717 41.8056233,5.95302084 49.5615943,13.9766264" id="路径-2" stroke="url(#linearGradient-1)"></path>
+                    <polyline id="路径-4" stroke="#C6FFE6" points="45.1676449 13.9766264 49.5615943 13.9766264 49.5615943 9.5826769"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

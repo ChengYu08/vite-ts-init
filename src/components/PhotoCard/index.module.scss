@@ -1,0 +1,46 @@
+@import "../../res.scss";
+.container {
+  width: 690px;
+  height: 900px;
+  background: #0A0F14;
+  border-radius: 48px;
+  border: 2px solid #1E1F23;
+  margin: auto;
+  margin-top: 80px;
+  .photo {
+    width: 690px;
+    margin: auto;
+    object-fit: cover;
+  }
+  .infoBox {
+    .title {
+        margin-top: 40px;
+      font-size: 40px;
+      font-family: MontserratAlternates-Medium, MontserratAlternates;
+      font-weight: 500;
+      color: #ffffff;
+      background: linear-gradient(
+        58deg,
+        #ff440f 0%,
+        #fec03b 22%,
+        #f554fe 51%,
+        #2fc4f1 84%,
+        #45f0c1 100%
+      );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-align: center;
+    }
+    .desc {
+      margin: auto;
+      margin-top: 28px;
+      width: 610px;
+      font-size: 28px;
+      font-family: MontserratAlternates-Light, MontserratAlternates;
+      font-weight: 300;
+      color: #ffffff;
+      line-height: 36px;
+      text-align: center;
+    }
+  }
+}

@@ -1,0 +1,103 @@
+@import "../../res.scss";
+.container {
+  .title {
+    font-size: 52px;
+    font-family: MontserratAlternates-SemiBold, MontserratAlternates;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: center;
+  }
+  .brandsBox {
+    margin-top: 68px;
+    .brand {
+      text-align: center;
+      margin: auto;
+      margin-top: 40px;
+    }
+  }
+  .joinAccessBox {
+    padding: 0 30px;
+    .joinBox {
+      margin-top: 80px;
+      width: 690px;
+      height: 628px;
+      background: #0a0f14;
+      border-radius: 28px;
+      border: 1px solid #1e1f23;
+      position: relative;
+      .topBox {
+        height: 128px;
+        padding: 0 24px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .joinTitle {
+          font-size: 30px;
+          font-family: MontserratAlternates-Medium, MontserratAlternates;
+          font-weight: 500;
+          color: #ffffff;
+          margin-top: 10px;
+        }
+        .tt {
+          display: flex;
+          align-content: center;
+          font-size: 24px;
+          font-family: MontserratAlternates-Regular, MontserratAlternates;
+          font-weight: 400;
+          color: #50565d;
+          line-height: 30px;
+          span {
+            margin-left: 6px;
+          }
+        }
+        .rrBox {
+          display: flex;
+          justify-content: flex-end;
+          align-items: center;
+          .channelItem {
+            width: 64px;
+            height: 64px;
+            border: 1px solid transparent;
+            margin-left: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+        }
+      }
+      .bottomBox {
+        width: 690px;
+        height: 500px;
+        border-radius: 28px;
+        overflow: hidden;
+        .bgImg {
+          width: 690px;
+          height: 500px;
+          object-fit: cover;
+          transition: all 0.5s;
+        }
+      }
+    }
+  }
+  .unlockBox {
+    text-align: center;
+    .t {
+      margin-top: 200px;
+      font-size: 52px;
+      font-family: MontserratAlternates-SemiBold, MontserratAlternates;
+      font-weight: 600;
+      color: #ffffff;
+      text-align: center;
+    }
+    .subT {
+      width: 690px;
+      text-align: center;
+      margin: auto;
+      margin-top: 32px;
+      font-size: 32px;
+      font-family: MontserratAlternates-Regular, MontserratAlternates;
+      font-weight: 400;
+      color: #50565d;
+    }
+  }
+}

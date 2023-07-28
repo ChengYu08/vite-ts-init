@@ -1,0 +1,68 @@
+@import "../../res.scss";
+.container {
+  width: 314px;
+  height: fit-content;
+  min-height: 100px;
+  position: relative;
+  .disable {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 5;
+  }
+  .topBox {
+    position: absolute;
+    top: 0;
+    width: 314px;
+    height: 280px;
+    background: linear-gradient(180deg, #010811 0%, rgba(1, 8, 17, 0) 100%);
+    z-index: 1;
+  }
+  .bottomBox {
+    width: 314px;
+    height: 278px;
+    background: linear-gradient(180deg, rgba(1, 8, 17, 0) 0%, #010811 100%);
+    position: absolute;
+    bottom: 0;
+  }
+  .scrollBox {
+    max-height: 1200px;
+    overflow: hidden;
+
+    .innerBox {
+      animation: scroll 40s linear infinite normal;
+      animation-delay: 0;
+    }
+    .innerBox2 {
+      animation: scroll 40s linear  infinite reverse;
+      animation-delay: 0;
+    }
+    &.normal {
+      animation-direction: 'normal'!important;
+    }
+    &.reverse {
+      animation-direction: 'reverse'!important;
+    }
+    @keyframes scroll {
+      0% {
+        transform: translateY(0);
+      }
+      100% {
+        transform: translateY(-100%);
+      }
+    }
+    @keyframes scrollTop {
+      0% {
+        transform: translateY(-100%);
+      }
+      100% {
+        transform: translateY(0);
+      }
+    }
+    
+  }
+
+
+}

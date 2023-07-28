@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="322px" height="63px" viewBox="0 0 322 63" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="34.3641236%" y1="48.7882142%" x2="36.0467482%" y2="51.187313%" id="linearGradient-1">
+            <stop stop-color="#A8E2FD" offset="0%"></stop>
+            <stop stop-color="#FFFCC5" offset="51.6484585%"></stop>
+            <stop stop-color="#B8FFED" offset="83.9501641%"></stop>
+            <stop stop-color="#FFD3EF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="L4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0">
+        <g id="移动端-L4官网-全" transform="translate(-39.000000, -288.000000)">
+            <g id="编组-35" transform="translate(40.000000, 289.000000)">
+                <rect id="矩形备份-21" fill="#D8D8D8" x="0" y="0" width="320" height="61"></rect>
+                <text id="Possibilities." stroke="url(#linearGradient-1)" stroke-width="0.65" fill-rule="nonzero" font-family="MontserratAlternates-Bold, Montserrat Alternates" font-size="50" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="0" y="48">Possibilities.</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
