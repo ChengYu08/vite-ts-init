@@ -12,14 +12,14 @@ import classNames from "classnames";
 // import { ReactComponent as  IconMaker }  from "@/assets/svg/IconMaker.svg";
 // import { ReactComponent as  IconGauntlet }  from "@/assets/svg/IconGauntlet.svg";
 
-import { ReactComponent as IconMore }  from "@/assets/svg/IconLearn.svg";
-import { ReactComponent as IconCode }  from "@/assets/svg/IconCode.svg";
-import { ReactComponent as IconPerson }  from "@/assets/svg/IconPerson.svg";
+import { ReactComponent as IconMore } from "@/assets/svg/IconLearn.svg";
+import { ReactComponent as IconCode } from "@/assets/svg/IconCode.svg";
+import { ReactComponent as IconPerson } from "@/assets/svg/IconPerson.svg";
 import joinLeft from "@/assets/images/joinLeft.png";
-import joinRight  from "@/assets/images/joinRight.png";
-import { ReactComponent as IconBtnApple }  from "@/assets/svg/IconBtnApple.svg";
-import { ReactComponent as IconBtnPlay }  from "@/assets/svg/IconBtnPlay.svg";
-import { ReactComponent as IconBtnCode }  from "@/assets/svg/IconBtnCode.svg";
+import joinRight from "@/assets/images/joinRight.png";
+import { ReactComponent as IconBtnApple } from "@/assets/svg/IconBtnApple.svg";
+import { ReactComponent as IconBtnPlay } from "@/assets/svg/IconBtnPlay.svg";
+import { ReactComponent as IconBtnCode } from "@/assets/svg/IconBtnCode.svg";
 
 import TypeBtn from "@/components/BtnType";
 import { Translation } from "react-i18next";
@@ -59,7 +59,7 @@ export default function BackedBy(props: { className?: string }) {
         </div>
       </div>
       <div className={s.joinAccessBox}>
-        <div className={classNames(s.joinBox, s.leftJoin)}>
+        <div className={classNames(s.joinBox)}>
           <div className={s.topBox}>
             <div>
               <div className={s.tt}>
@@ -90,7 +90,7 @@ export default function BackedBy(props: { className?: string }) {
             <img alt="bgImg" className={s.bgImg} src={joinLeft} />
           </div>
         </div>
-        <div className={classNames(s.joinBox, s.rightJoin)}>
+        <div className={classNames(s.joinBox)}>
           <div className={s.topBox}>
             <div>
               <div className={s.tt}>

@@ -1,0 +1,25 @@
+declare const classNames: {
+  readonly container: "container";
+  readonly topBox: "topBox";
+  readonly pItem: "pItem";
+  readonly arr: "arr";
+  readonly star: "star";
+  readonly one: "one";
+  readonly plat: "plat";
+  readonly infin: "infin";
+  readonly poss: "poss";
+  readonly socialDesc: "socialDesc";
+  readonly joinBtn: "joinBtn";
+  readonly download: "download";
+  readonly f: "f";
+  readonly launchBtn: "launchBtn";
+  readonly bottomBox: "bottomBox";
+  readonly circle: "circle";
+  readonly bText: "bText";
+  readonly p: "p";
+  readonly k: "k";
+  readonly queueBox: "queueBox";
+  readonly imgItem: "imgItem";
+  readonly disable: "disable";
+};
+export = classNames;

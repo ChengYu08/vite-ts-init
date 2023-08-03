@@ -1,7 +1,7 @@
 import s from "./index.module.scss";
 import classNames from "classnames";
-export default function PhotoCard(prop: any) {
-  const { title, desc, photo ,className} = prop;
+export default function PhotoCard(prop) {
+  const { title, desc, photo, className } = prop;
   return (
     <div className={classNames([s.container, className])}>
       <img className={s.photo} alt="" src={photo} />

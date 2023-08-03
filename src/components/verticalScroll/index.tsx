@@ -1,22 +1,22 @@
-import React, { useEffect, useState } from "react";
+import { ReactNode, useEffect, useState } from "react";
 import s from "./index.module.scss";
 import classNames from "classnames";
 export default function VerticalScroll(prop: {
   className?: string;
-  children?: any;
+  children?: ReactNode;
   isTop: boolean
 }) {
-  const { className, children,isTop } = prop;
+  const { className, children, isTop } = prop;
 
-  const [isMouthed,setMouthed]= useState(false);
+  const [isMouthed, setMouthed] = useState(false);
 
-  useEffect(()=>{
+  useEffect(() => {
     setMouthed(true);
-    return ()=>{
+    return () => {
 
     }
-  },[])
-  if(!isMouthed) {
+  }, [])
+  if (!isMouthed) {
     return null
   }
 
@@ -24,12 +24,12 @@ export default function VerticalScroll(prop: {
     <div className={classNames([s.container, className])}>
       <div className={s.disable}></div>
       <div className={s.topBox}></div>
-      <div  className={s.scrollBox}>
-        <div className={isTop ?s.innerBox : s.innerBox2}
-        style={{
-          "animationPlayState": isMouthed? "running" : "paused",
-        }}
-        
+      <div className={s.scrollBox}>
+        <div className={isTop ? s.innerBox : s.innerBox2}
+          style={{
+            "animationPlayState": isMouthed ? "running" : "paused",
+          }}
+
         >{children}{children}{children}{children}</div>
       </div>
 

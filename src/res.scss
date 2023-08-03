@@ -1,1 +1,83 @@
 
+@mixin overflow($num: 2) {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: $num;
+    word-break: break-all;
+  }
+  @mixin fontHidden {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  @mixin flex() {
+    display: flex;
+  }
+  @mixin flexCenter() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  @mixin flexTopCenter() {
+    display: flex;
+    align-items: center;
+  }
+  @mixin flexBwCenter() {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  @mixin pLeftCenter() {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  @mixin none {
+    user-select: none;
+  }
+  @mixin fill {
+    width: 100%;
+    height: 100%;
+  }
+  
+  @mixin btn {
+    cursor: pointer;
+    user-select: none;
+    text-align: center;
+    white-space: nowrap;
+  }
+  @mixin background-gradient($start, $end) {
+    background: linear-gradient(to bottom, $start, $end);
+  }
+  
+  @mixin font-style($family, $size, $weight, $color) {
+    font-family: $family;
+    font-size: $size;
+    font-weight: $weight;
+    color: $color;
+  }
+  
+  @mixin blur($blur: 10px) {
+    -webkit-filter: blur($blur);
+    -moz-filter: blur($blur);
+    -o-filter: blur($blur);
+    -ms-filter: blur($blur);
+    filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius='${blur}');
+    filter: blur($blur);
+    *zoom: 1;
+  }
+  $path: "@/assets/images/";
+  @mixin bg($url) {
+    background: url($path + $url) no-repeat top left / 100% 100%;
+  }
+  
+  $mockPath: "@/assets/mock/";
+  @mixin mockBg($url) {
+    background: url($mockPath + $url) no-repeat top left / 100% 100%;
+  }
+  

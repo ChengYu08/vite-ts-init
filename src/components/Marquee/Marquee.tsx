@@ -1,4 +1,4 @@
-import React, {
+import {
   Fragment,
   useEffect,
   useState,
@@ -242,8 +242,8 @@ const Marquee: FC<MarqueeProps> = forwardRef(function Marquee(
         direction === "up"
           ? "rotate(-90deg)"
           : direction === "down"
-          ? "rotate(90deg)"
-          : "none",
+            ? "rotate(90deg)"
+            : "none",
     }),
     [style, play, pauseOnHover, pauseOnClick, direction]
   );
@@ -265,7 +265,7 @@ const Marquee: FC<MarqueeProps> = forwardRef(function Marquee(
       ["--direction" as string]: direction === "left" ? "normal" : "reverse",
       ["--duration" as string]: `${duration}s`,
       ["--delay" as string]: `${delay}s`,
-      ["--iteration-count" as string]: !!loop ? `${loop}` : "infinite",
+      ["--iteration-count" as string]: loop ? `${loop}` : "infinite",
       ["--min-width" as string]: autoFill ? `auto` : "100%",
     }),
     [play, direction, duration, delay, loop, autoFill]
@@ -277,8 +277,8 @@ const Marquee: FC<MarqueeProps> = forwardRef(function Marquee(
         direction === "up"
           ? "rotate(90deg)"
           : direction === "down"
-          ? "rotate(-90deg)"
-          : "none",
+            ? "rotate(-90deg)"
+            : "none",
     }),
     [direction]
   );
@@ -309,7 +309,7 @@ const Marquee: FC<MarqueeProps> = forwardRef(function Marquee(
     <div
       ref={containerRef}
       style={containerStyle}
-      className={classNames([s.marqueeContainer,className])}
+      className={classNames([s.marqueeContainer, className])}
     >
       {gradient && <div style={gradientStyle} className={s.overlay} />}
       <div
