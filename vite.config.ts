@@ -9,7 +9,7 @@ import requireTransform from "vite-plugin-require-transform";
 import legacy from "@vitejs/plugin-legacy";
 import sassDts from "vite-plugin-sass-dts";
 import viteImagemin from "vite-plugin-imagemin";
-
+import { viteVConsole } from 'vite-plugin-vconsole';
 // import vitePluginAliOss from 'vite-plugin-ali-oss'
 // const options = {
 //   region: '<Your Region>'
@@ -92,6 +92,14 @@ export default defineConfig({
     viteCompression({
       deleteOriginFile: false,
     }),
+    viteVConsole({
+      entry: path.resolve('src/main.tsx'), // or you can use entry: [path.resolve('src/main.ts')]
+      enabled: true,
+      config: {
+        maxLogNumber: 1000,
+        theme: 'dark'
+      }
+    })
   ],
   build: {
     target: 'es2015',
