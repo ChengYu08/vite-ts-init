@@ -1,4 +1,4 @@
-import  { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import s from "./index.module.scss";
 import classNames from "classnames";
 import { ReactComponent as IconDown } from "@/assets/svg/IconDown.svg";
@@ -13,21 +13,21 @@ export default function LangSelect(props: { className?: string }) {
   function closeCurrent() {
     setIsOpen(false);
   }
-  useEffect(()=>{
-    document.addEventListener("scroll",closeCurrent)
-    return ()=>{
-      document.removeEventListener("scroll",closeCurrent)
+  useEffect(() => {
+    document.addEventListener("scroll", closeCurrent)
+    return () => {
+      document.removeEventListener("scroll", closeCurrent)
     }
-  },[])
+  }, [])
   return <div className={classNames([s.container, className])}>
     <div className={s.currentLang} onClick={() => {
       setIsOpen(true)
     }}>
       <span className={s.lang}>{t.language}</span>
       {
-        !isOpen? <IconDown />: <IconUp />
+        !isOpen ? <IconDown /> : <IconUp />
       }
-      
+
     </div>
     {
       isOpen && <div className={s.toolTopBox} onClick={() => {
@@ -46,7 +46,8 @@ export default function LangSelect(props: { className?: string }) {
                 ])}
                 onClick={() => {
                   t.changeLanguage(i, () => {
-                    setIsOpen(false)
+                    setIsOpen(false);
+                    localStorage.setItem("defaultLang", i);
                   })
                 }}
 
